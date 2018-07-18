@@ -1,0 +1,29 @@
+Command         Syntax
+!commands       COMMANDS • https://pastebin.com/edit/AzZHJ5qr
+!game           GAME • $mygame
+!status         TITLE • $mystatus
+!uptime         $mychannel • has been live for • $uptime
+!stats          VIEWERS • $readapi(https://api.crunchprank.net/twitch/viewercount/$mychannel) | VIEWS • | FOLLOWERS •
+                $followercount
+!time           $time CST
+!date           $date
+!cam            *lighter flick, lighter flick* • With your mother <3
+!tophours       TOP HOURS • $tophours(5)
+!viewers        VIEWERS • $readapi(https://api.crunchprank.net/twitch/viewercount/$mychannel)
+!subs           SUBSCRIBERS • $subcount
+!followers      FOLLOWERS • $followercount
+!followed       $user followed $mychannel on $readapi(https://api.crunchprank.net/twitch/followed/$mychannel/$user?
+                tz=America/Chicago)
+!followage      $user has been following $mychannel for                      
+                $readapi(https://api.crunchprank.net/twitch/followage/$mychannel/$user?precision=3)
+!accountage     $user • was created $readapi(https://api.crunchprank.net/twitch/accountage/$user) ago
+!win            WINS • $count
+!resetwin       !command count !win 0
+!emotes         $readapi(https://api.crunchprank.net/twitch/subscriber_emotes/$mychannel)
+!julio          https://clips.twitch.tv/InexpensiveInspiringChamoisSMOrc
+!jonny          THE TRU OG • https://www.twitch.tv/jonnycash5
+!urban          $msg: $readapi(http://jwd.me/twitch/api/urban-dictionary.php?q=$msg)
+!discord        https://discord.gg/wGBt7wK
+!twitter        https://twitter.com/RaveInTheAir
+                https://twitter.com/wurrieZ
+!fortnite       EPIC GAMERTAG • pAniccccccc
